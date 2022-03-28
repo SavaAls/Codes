@@ -1,0 +1,2 @@
+Text = "'Volleyball', 'Hook', 'Scate', 'Python', 'Pudge', 'Sniper', 'Invoker', 'Terrorblade', 'Skyrim', 'EnergyDrink', 'PowerWolf', 'Rammstein', 'Eskimo_Callboy', 'Hair', 'Minecraft', 'Terraria', 'Defend_of_The_ancient'"
+print([e for e in eval('('+Text+')') if len(e)<10],"Строки длинной менее 10 символов")
